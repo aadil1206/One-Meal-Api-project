@@ -30,7 +30,11 @@ function Main() {
     );
   });
 
-  return <div className="items-container">{itemslist}</div>;
+  return (<>
+    
+  <div className="items-container">{itemslist}</div>
+  </>
+  )
 }
 
 export default Main;
